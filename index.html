@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>Cifra de César</title>
+</head>
+
+<body>
+    <main class="container">
+      
+      <!--primeira section-->
+        <section>
+        <div class="box-center">
+        
+            <div class="form-group">
+              <p>Escreva aqui sua frase para ser encriptograda!</p>
+              <textarea class="input-textarea"placeholder="Escreva aqui..." id="frase"></textarea>
+            </div>
+        
+            <div class="form-group">
+              <button type=""class="submit-button" onclick="cesar()">
+                Enviar
+              </button>
+            </div>
+          </div>
+
+          </section>
+        
+          <!---iniciando a segunda section--->
+          <section>
+          <div class="box-center">
+        
+            <div class="form-group">
+              <p>Está é sua frase encriptograda!</p>
+              <textarea id="res" class="input-textarea"></textarea>
+            </div>
+        
+            <div class="form-group">
+              <button type="submit" class="submit-button" onclick="window.location.reload()">
+                Limpar
+              </button>
+            </div>
+          </div>
+
+        </section>
+
+
+       
+    </main>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
